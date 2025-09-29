@@ -1,0 +1,87 @@
+/* NYUAD-inspired colors */
+:root {
+    --purple: #57068c;
+    --dark: #1a1a1a;
+    --light: #f4f4f4;
+    --accent-yellow: #E6B800;
+}
+
+/* Basic reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--light);
+    color: var(--dark);
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: var(--purple);
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* Sections */
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: var(--purple);
+    margin-bottom: 20px;
+}
+
+/* Images */
+img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+/* SVG styling */
+svg {
+    max-width: 80%;
+    height: auto;
+    border: 2px solid var(--dark);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Interactive SVG hover */
+#yellowShape:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: var(--dark);
+}
